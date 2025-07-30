@@ -58,7 +58,7 @@ for (const fileAbs of htmlFiles) {
     const adsRel    = `${ADS_DIR}/${relPath}`.replace(/\\/g,'/');
 
     const url = `file://${process.cwd()}/${adsRel}`;
-    await page.goto(url, { waitUntil: 'networkidle2' });
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 0 });
     await new Promise(r => setTimeout(r, 3000));
     const buf = await page.screenshot({ type: 'jpeg', quality: 80 });
     await fs.writeFile(path.join(THUMBS_DIR, thumbName), buf);
