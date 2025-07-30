@@ -74,6 +74,22 @@ p{opacity:.75}
     pointer-events: none;
 }
 
+/* блок с кнопкой */
+.actions{
+    margin-top: .3rem;
+    font-size: .875rem;
+}
+
+/* ссылка Full screen */
+.fs-btn{
+    color:#ababab;
+    text-decoration:none;
+    transition:color .15s;
+}
+.fs-btn:hover{
+    color:#ffffff;
+}
+
 
 /* === footer === */
 footer{padding:2rem 1rem;text-align:center;font-size:.8rem;opacity:.6}
