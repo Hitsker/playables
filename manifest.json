@@ -1,0 +1,172 @@
+[
+  {
+    "title": "My Favourite",
+    "folder": "must-see",
+    "items": [
+      {
+        "file": "FallingTiles.html",
+        "title": "Falling Tiles",
+        "tags": [],
+        "src": "ads/must-see/FallingTiles.html",
+        "thumb": "thumbs/must-see_FallingTiles.jpg"
+      },
+      {
+        "file": "MaisieStacking.html",
+        "title": "Maisie Stacking",
+        "tags": [],
+        "src": "ads/must-see/MaisieStacking.html",
+        "thumb": "thumbs/must-see_MaisieStacking.jpg"
+      },
+      {
+        "file": "SlidingMerge.html",
+        "title": "Sliding Merge",
+        "tags": [],
+        "src": "ads/must-see/SlidingMerge.html",
+        "thumb": "thumbs/must-see_SlidingMerge.jpg"
+      },
+      {
+        "file": "TwoLevelsV2.html",
+        "title": "Two Levels V2",
+        "tags": [],
+        "src": "ads/must-see/TwoLevelsV2.html",
+        "thumb": "thumbs/must-see_TwoLevelsV2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Merge Inn Merge-2",
+    "folder": "merge-inn-merge-2",
+    "items": [
+      {
+        "file": "Minesweeper.html",
+        "title": "Minesweeper",
+        "tags": [],
+        "src": "ads/merge-inn-merge-2/Minesweeper.html",
+        "thumb": "thumbs/merge-inn-merge-2_Minesweeper.jpg"
+      },
+      {
+        "file": "PhysicsSorting.html",
+        "title": "Physics Sorting",
+        "tags": [],
+        "src": "ads/merge-inn-merge-2/PhysicsSorting.html",
+        "thumb": "thumbs/merge-inn-merge-2_PhysicsSorting.jpg"
+      },
+      {
+        "file": "SaveCharacter.html",
+        "title": "Save Character",
+        "tags": [],
+        "src": "ads/merge-inn-merge-2/SaveCharacter.html",
+        "thumb": "thumbs/merge-inn-merge-2_SaveCharacter.jpg"
+      },
+      {
+        "file": "StickerbookMerge.html",
+        "title": "Stickerbook Merge",
+        "tags": [],
+        "src": "ads/merge-inn-merge-2/StickerbookMerge.html",
+        "thumb": "thumbs/merge-inn-merge-2_StickerbookMerge.jpg"
+      },
+      {
+        "file": "StitchingeMerge.html",
+        "title": "Stitchinge Merge",
+        "tags": [],
+        "src": "ads/merge-inn-merge-2/StitchingeMerge.html",
+        "thumb": "thumbs/merge-inn-merge-2_StitchingeMerge.jpg"
+      },
+      {
+        "file": "TwoLevelsV1.html",
+        "title": "Two Levels V1",
+        "tags": [],
+        "src": "ads/merge-inn-merge-2/TwoLevelsV1.html",
+        "thumb": "thumbs/merge-inn-merge-2_TwoLevelsV1.jpg"
+      }
+    ]
+  },
+  {
+    "title": "3D",
+    "folder": "3D",
+    "items": [
+      {
+        "file": "RunnerWinter.html",
+        "title": "Runner Winter",
+        "tags": [],
+        "src": "ads/3D/RunnerWinter.html",
+        "thumb": "thumbs/3D_RunnerWinter.jpg"
+      },
+      {
+        "file": "JuicyStack.html",
+        "title": "Juicy Stack",
+        "tags": [],
+        "src": "ads/3D/JuicyStack.html",
+        "thumb": "thumbs/3D_JuicyStack.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Merge Inn Other Mechanics",
+    "folder": "merge-inn-other-mechanics",
+    "items": [
+      {
+        "file": "CardGame.html",
+        "title": "Card Game",
+        "tags": [],
+        "src": "ads/merge-inn-other-mechanics/CardGame.html",
+        "thumb": "thumbs/merge-inn-other-mechanics_CardGame.jpg"
+      },
+      {
+        "file": "Mahjong.html",
+        "title": "Mahjong",
+        "tags": [],
+        "src": "ads/merge-inn-other-mechanics/Mahjong.html",
+        "thumb": "thumbs/merge-inn-other-mechanics_Mahjong.jpg"
+      },
+      {
+        "file": "MemoryCards.html",
+        "title": "Memory Cards",
+        "tags": [],
+        "src": "ads/merge-inn-other-mechanics/MemoryCards.html",
+        "thumb": "thumbs/merge-inn-other-mechanics_MemoryCards.jpg"
+      },
+      {
+        "file": "SimilarItems.html",
+        "title": "Similar Items",
+        "tags": [],
+        "src": "ads/merge-inn-other-mechanics/SimilarItems.html",
+        "thumb": "thumbs/merge-inn-other-mechanics_SimilarItems.jpg"
+      },
+      {
+        "file": "Tiles.html",
+        "title": "Tiles",
+        "tags": [],
+        "src": "ads/merge-inn-other-mechanics/Tiles.html",
+        "thumb": "thumbs/merge-inn-other-mechanics_Tiles.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Merge Inn Iterations Example",
+    "folder": "merge-inn-iterations-example",
+    "items": [
+      {
+        "file": "FallingMergeDefault.html",
+        "title": "Falling Merge Default",
+        "tags": [],
+        "src": "ads/merge-inn-iterations-example/FallingMergeDefault.html",
+        "thumb": "thumbs/merge-inn-iterations-example_FallingMergeDefault.jpg"
+      },
+      {
+        "file": "FallingMergePink.html",
+        "title": "Falling Merge Pink",
+        "tags": [],
+        "src": "ads/merge-inn-iterations-example/FallingMergePink.html",
+        "thumb": "thumbs/merge-inn-iterations-example_FallingMergePink.jpg"
+      },
+      {
+        "file": "FallingMergeYellow.html",
+        "title": "Falling Merge Yellow",
+        "tags": [],
+        "src": "ads/merge-inn-iterations-example/FallingMergeYellow.html",
+        "thumb": "thumbs/merge-inn-iterations-example_FallingMergeYellow.jpg"
+      }
+    ]
+  }
+]

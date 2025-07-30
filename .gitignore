@@ -1,0 +1,17 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+package-lock.json   # <- если не хочешь фиксировать lock; оставь, если нужен
+
+# --- MacOS ---
+.DS_Store
+
+# --- JetBrains / VS Code ---
+.idea/
+.vscode/
+
+# --- Thumbnails (автогенерируемые) ---
+thumbs/
+
+# --- misc ---
+*.log
