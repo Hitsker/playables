@@ -29,5 +29,5 @@ jobs:
       - name: Commit thumbnails
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'thumbs/*.jpg manifest.json'
-          message: 'chore(ci): auto‑update thumbnails [skip ci]'
+          add: 'thumbs --force'
+          message: 'auto: update thumbnails [skip ci]'
