@@ -1,4 +1,4 @@
-/* === базовый reset === */
+/* === base reset === */
 *{box-sizing:border-box;margin:0;padding:0}
 body{
     font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
@@ -8,7 +8,7 @@ header{padding:2rem 1.5rem;text-align:center}
 h1{font-size:1.8rem;margin-bottom:.25rem}
 p{opacity:.75}
 
-/* === сетка карточек === */
+/* === cards grid === */
 .grid{
     display:grid;
     gap:2rem;
@@ -16,9 +16,9 @@ p{opacity:.75}
     grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
 }
 
-/* === заголовок группы === */
+/* === group header === */
 .group{
-    grid-column:1 / -1;                 /* растягиваем на всю ширину сетки */
+    grid-column:1 / -1;
     font-size:1.25rem;font-weight:600;
     margin:1.5rem 0 .5rem;
     color:#f5c96f;
@@ -28,7 +28,7 @@ p{opacity:.75}
     padding-bottom:.25rem;
 }
 
-/* === карточка === */
+/* === card === */
 .card{
     background:#1c1c1c;border-radius:18px;padding:1rem;
     box-shadow:0 4px 10px #0007;
@@ -38,9 +38,9 @@ p{opacity:.75}
 .card h3{font-size:1.1rem;margin:.5rem 0}
 .meta{list-style:none;font-size:.9rem;opacity:.8}
 
-/* === phone‑контейнер с превью === */
+/* === phone‑container with preview === */
 .phone{
-    position:relative;padding-top:200%;        /* портрет 1:2 */
+    position:relative;padding-top:200%;
     border:2px solid #555;border-radius:26px;
     overflow:hidden;margin-bottom:.75rem;
     background:#000;cursor:pointer;

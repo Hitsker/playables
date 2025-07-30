@@ -1,9 +1,6 @@
-/* playables.js  ─  единственный скрипт на странице */
-
 const grid     = document.querySelector('.grid');
 const manifest = await fetch('manifest.json').then(r => r.json());
 
-/* ——— рендер групп / карточек ——— */
 for (const group of manifest) {
     grid.insertAdjacentHTML('beforeend', `<h2 class="group">${group.title}</h2>`);
 
@@ -24,7 +21,6 @@ for (const group of manifest) {
     }
 }
 
-/* ——— одиночное воспроизведение ——— */
 let current = null;
 
 grid.addEventListener('click', e=>{
@@ -38,7 +34,6 @@ grid.addEventListener('click', e=>{
     current = phone;
 },{passive:true});
 
-/* ===== helpers ===== */
 
 function load(phone){
     const iframe = document.createElement('iframe');
@@ -46,16 +41,14 @@ function load(phone){
     iframe.style.cssText =
         'position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none';
 
-    /* 1️⃣  навешиваем onload СРАЗУ */
     iframe.onload = () => {
         const cw = iframe.contentWindow;
         if (cw && cw.console){
             ['log','info','debug','warn','error'].forEach(m=>cw.console[m]=()=>{});
         }
-        iframe.style.pointerEvents = 'auto';   // можно кликать/скроллить
+        iframe.style.pointerEvents = 'auto';
     };
 
-    /* 2️⃣  задаём src, вставляем в DOM */
     iframe.src = phone.dataset.src;
     phone.innerHTML = '';
     phone.appendChild(iframe);
