@@ -1,5 +1,189 @@
 [
   {
+    "title": "Tower Defence",
+    "folder": "tower-defence",
+    "items": [
+      {
+        "file": "TD.html",
+        "title": "TD",
+        "tags": [],
+        "src": "ads/tower-defence/TD.html",
+        "thumb": "thumbs/tower-defence_TD.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Puzzles",
+    "folder": "puzzles",
+    "items": [
+      {
+        "file": "PixelPuzzle.html",
+        "title": "Pixel Puzzle",
+        "tags": [],
+        "src": "ads/puzzles/PixelPuzzle.html",
+        "thumb": "thumbs/puzzles_PixelPuzzle.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Merge 2",
+    "folder": "merge-2",
+    "items": [
+      {
+        "file": "MergeInn-1.html",
+        "title": "Merge Inn 1",
+        "tags": [],
+        "src": "ads/merge-2/MergeInn-1.html",
+        "thumb": "thumbs/merge-2_MergeInn-1.jpg"
+      },
+      {
+        "file": "MergeInn-2.html",
+        "title": "Merge Inn 2",
+        "tags": [],
+        "src": "ads/merge-2/MergeInn-2.html",
+        "thumb": "thumbs/merge-2_MergeInn-2.jpg"
+      },
+      {
+        "file": "Minesweeper.html",
+        "title": "Minesweeper",
+        "tags": [],
+        "src": "ads/merge-2/Minesweeper.html",
+        "thumb": "thumbs/merge-2_Minesweeper.jpg"
+      },
+      {
+        "file": "SaveCharacter.html",
+        "title": "Save Character",
+        "tags": [],
+        "src": "ads/merge-2/SaveCharacter.html",
+        "thumb": "thumbs/merge-2_SaveCharacter.jpg"
+      },
+      {
+        "file": "StickerbookMerge.html",
+        "title": "Stickerbook Merge",
+        "tags": [],
+        "src": "ads/merge-2/StickerbookMerge.html",
+        "thumb": "thumbs/merge-2_StickerbookMerge.jpg"
+      },
+      {
+        "file": "StitchingeMerge.html",
+        "title": "Stitchinge Merge",
+        "tags": [],
+        "src": "ads/merge-2/StitchingeMerge.html",
+        "thumb": "thumbs/merge-2_StitchingeMerge.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Roguelike",
+    "folder": "roguelike",
+    "items": [
+      {
+        "file": "KingDefence.html",
+        "title": "King Defence",
+        "tags": [],
+        "src": "ads/roguelike/KingDefence.html",
+        "thumb": "thumbs/roguelike_KingDefence.jpg"
+      },
+      {
+        "file": "TDButtons.html",
+        "title": "TDButtons",
+        "tags": [],
+        "src": "ads/roguelike/TDButtons.html",
+        "thumb": "thumbs/roguelike_TDButtons.jpg"
+      },
+      {
+        "file": "ZombieDefence.html",
+        "title": "Zombie Defence",
+        "tags": [],
+        "src": "ads/roguelike/ZombieDefence.html",
+        "thumb": "thumbs/roguelike_ZombieDefence.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Other Mechanics",
+    "folder": "other-mechanics",
+    "items": [
+      {
+        "file": "CardGame.html",
+        "title": "Card Game",
+        "tags": [],
+        "src": "ads/other-mechanics/CardGame.html",
+        "thumb": "thumbs/other-mechanics_CardGame.jpg"
+      },
+      {
+        "file": "FallingTiles.html",
+        "title": "Falling Tiles",
+        "tags": [],
+        "src": "ads/other-mechanics/FallingTiles.html",
+        "thumb": "thumbs/other-mechanics_FallingTiles.jpg"
+      },
+      {
+        "file": "Mahjong.html",
+        "title": "Mahjong",
+        "tags": [],
+        "src": "ads/other-mechanics/Mahjong.html",
+        "thumb": "thumbs/other-mechanics_Mahjong.jpg"
+      },
+      {
+        "file": "MaisieStacking.html",
+        "title": "Maisie Stacking",
+        "tags": [],
+        "src": "ads/other-mechanics/MaisieStacking.html",
+        "thumb": "thumbs/other-mechanics_MaisieStacking.jpg"
+      },
+      {
+        "file": "MemoryCards.html",
+        "title": "Memory Cards",
+        "tags": [],
+        "src": "ads/other-mechanics/MemoryCards.html",
+        "thumb": "thumbs/other-mechanics_MemoryCards.jpg"
+      },
+      {
+        "file": "PhysicsSorting.html",
+        "title": "Physics Sorting",
+        "tags": [],
+        "src": "ads/other-mechanics/PhysicsSorting.html",
+        "thumb": "thumbs/other-mechanics_PhysicsSorting.jpg"
+      },
+      {
+        "file": "Segment-Shooter.html",
+        "title": "Segment Shooter",
+        "tags": [],
+        "src": "ads/other-mechanics/Segment-Shooter.html",
+        "thumb": "thumbs/other-mechanics_Segment-Shooter.jpg"
+      },
+      {
+        "file": "SimilarItems.html",
+        "title": "Similar Items",
+        "tags": [],
+        "src": "ads/other-mechanics/SimilarItems.html",
+        "thumb": "thumbs/other-mechanics_SimilarItems.jpg"
+      },
+      {
+        "file": "SlidingMerge.html",
+        "title": "Sliding Merge",
+        "tags": [],
+        "src": "ads/other-mechanics/SlidingMerge.html",
+        "thumb": "thumbs/other-mechanics_SlidingMerge.jpg"
+      },
+      {
+        "file": "Tiles.html",
+        "title": "Tiles",
+        "tags": [],
+        "src": "ads/other-mechanics/Tiles.html",
+        "thumb": "thumbs/other-mechanics_Tiles.jpg"
+      },
+      {
+        "file": "Zuma.html",
+        "title": "Zuma",
+        "tags": [],
+        "src": "ads/other-mechanics/Zuma.html",
+        "thumb": "thumbs/other-mechanics_Zuma.jpg"
+      }
+    ]
+  },
+  {
     "title": "3D",
     "folder": "3D",
     "items": [
@@ -18,224 +202,52 @@
         "thumb": "thumbs/3D_JuicyStack.jpg"
       },
       {
-        "file": "line-racer.html",
+        "file": "KingProtect.html",
+        "title": "King Protect",
+        "tags": [],
+        "src": "ads/3D/KingProtect.html",
+        "thumb": "thumbs/3D_KingProtect.jpg"
+      },
+      {
+        "file": "LineRacer.html",
         "title": "Line Racer",
         "tags": [],
-        "src": "ads/3D/line-racer.html",
-        "thumb": "thumbs/3D_line-racer.jpg"
+        "src": "ads/3D/LineRacer.html",
+        "thumb": "thumbs/3D_LineRacer.jpg"
       },
       {
-        "file": "protect-king-3d.html",
-        "title": "Protect King 3d",
+        "file": "Rinner.html",
+        "title": "Rinner",
         "tags": [],
-        "src": "ads/3D/protect-king-3d.html",
-        "thumb": "thumbs/3D_protect-king-3d.jpg"
-      },
-      {
-        "file": "RunnerWinter.html",
-        "title": "Runner Winter",
-        "tags": [],
-        "src": "ads/3D/RunnerWinter.html",
-        "thumb": "thumbs/3D_RunnerWinter.jpg"
+        "src": "ads/3D/Rinner.html",
+        "thumb": "thumbs/3D_Rinner.jpg"
       }
     ]
   },
   {
-    "title": "Merge Inn Iterations Example",
-    "folder": "merge-inn-iterations-example",
+    "title": "Iterations Example",
+    "folder": "iterations-example",
     "items": [
       {
         "file": "FallingMergeDefault.html",
         "title": "Falling Merge Default",
         "tags": [],
-        "src": "ads/merge-inn-iterations-example/FallingMergeDefault.html",
-        "thumb": "thumbs/merge-inn-iterations-example_FallingMergeDefault.jpg"
+        "src": "ads/iterations-example/FallingMergeDefault.html",
+        "thumb": "thumbs/iterations-example_FallingMergeDefault.jpg"
       },
       {
         "file": "FallingMergePink.html",
         "title": "Falling Merge Pink",
         "tags": [],
-        "src": "ads/merge-inn-iterations-example/FallingMergePink.html",
-        "thumb": "thumbs/merge-inn-iterations-example_FallingMergePink.jpg"
+        "src": "ads/iterations-example/FallingMergePink.html",
+        "thumb": "thumbs/iterations-example_FallingMergePink.jpg"
       },
       {
         "file": "FallingMergeYellow.html",
         "title": "Falling Merge Yellow",
         "tags": [],
-        "src": "ads/merge-inn-iterations-example/FallingMergeYellow.html",
-        "thumb": "thumbs/merge-inn-iterations-example_FallingMergeYellow.jpg"
-      }
-    ]
-  },
-  {
-    "title": "Merge Inn Merge-2",
-    "folder": "merge-inn-merge-2",
-    "items": [
-      {
-        "file": "Minesweeper.html",
-        "title": "Minesweeper",
-        "tags": [],
-        "src": "ads/merge-inn-merge-2/Minesweeper.html",
-        "thumb": "thumbs/merge-inn-merge-2_Minesweeper.jpg"
-      },
-      {
-        "file": "PhysicsSorting.html",
-        "title": "Physics Sorting",
-        "tags": [],
-        "src": "ads/merge-inn-merge-2/PhysicsSorting.html",
-        "thumb": "thumbs/merge-inn-merge-2_PhysicsSorting.jpg"
-      },
-      {
-        "file": "SaveCharacter.html",
-        "title": "Save Character",
-        "tags": [],
-        "src": "ads/merge-inn-merge-2/SaveCharacter.html",
-        "thumb": "thumbs/merge-inn-merge-2_SaveCharacter.jpg"
-      },
-      {
-        "file": "StickerbookMerge.html",
-        "title": "Stickerbook Merge",
-        "tags": [],
-        "src": "ads/merge-inn-merge-2/StickerbookMerge.html",
-        "thumb": "thumbs/merge-inn-merge-2_StickerbookMerge.jpg"
-      },
-      {
-        "file": "StitchingeMerge.html",
-        "title": "Stitchinge Merge",
-        "tags": [],
-        "src": "ads/merge-inn-merge-2/StitchingeMerge.html",
-        "thumb": "thumbs/merge-inn-merge-2_StitchingeMerge.jpg"
-      },
-      {
-        "file": "TwoLevelsV1.html",
-        "title": "Two Levels V1",
-        "tags": [],
-        "src": "ads/merge-inn-merge-2/TwoLevelsV1.html",
-        "thumb": "thumbs/merge-inn-merge-2_TwoLevelsV1.jpg"
-      }
-    ]
-  },
-  {
-    "title": "Merge Inn Other Mechanics",
-    "folder": "merge-inn-other-mechanics",
-    "items": [
-      {
-        "file": "CardGame.html",
-        "title": "Card Game",
-        "tags": [],
-        "src": "ads/merge-inn-other-mechanics/CardGame.html",
-        "thumb": "thumbs/merge-inn-other-mechanics_CardGame.jpg"
-      },
-      {
-        "file": "Mahjong.html",
-        "title": "Mahjong",
-        "tags": [],
-        "src": "ads/merge-inn-other-mechanics/Mahjong.html",
-        "thumb": "thumbs/merge-inn-other-mechanics_Mahjong.jpg"
-      },
-      {
-        "file": "MemoryCards.html",
-        "title": "Memory Cards",
-        "tags": [],
-        "src": "ads/merge-inn-other-mechanics/MemoryCards.html",
-        "thumb": "thumbs/merge-inn-other-mechanics_MemoryCards.jpg"
-      },
-      {
-        "file": "SimilarItems.html",
-        "title": "Similar Items",
-        "tags": [],
-        "src": "ads/merge-inn-other-mechanics/SimilarItems.html",
-        "thumb": "thumbs/merge-inn-other-mechanics_SimilarItems.jpg"
-      },
-      {
-        "file": "Tiles.html",
-        "title": "Tiles",
-        "tags": [],
-        "src": "ads/merge-inn-other-mechanics/Tiles.html",
-        "thumb": "thumbs/merge-inn-other-mechanics_Tiles.jpg"
-      }
-    ]
-  },
-  {
-    "title": "My Favourite",
-    "folder": "must-see",
-    "items": [
-      {
-        "file": "bloomville-regular.html",
-        "title": "Bloomville Regular",
-        "tags": [],
-        "src": "ads/must-see/bloomville-regular.html",
-        "thumb": "thumbs/must-see_bloomville-regular.jpg"
-      },
-      {
-        "file": "FallingTiles.html",
-        "title": "Falling Tiles",
-        "tags": [],
-        "src": "ads/must-see/FallingTiles.html",
-        "thumb": "thumbs/must-see_FallingTiles.jpg"
-      },
-      {
-        "file": "king-snake-regular.html",
-        "title": "King Snake Regular",
-        "tags": [],
-        "src": "ads/must-see/king-snake-regular.html",
-        "thumb": "thumbs/must-see_king-snake-regular.jpg"
-      },
-      {
-        "file": "MaisieStacking.html",
-        "title": "Maisie Stacking",
-        "tags": [],
-        "src": "ads/must-see/MaisieStacking.html",
-        "thumb": "thumbs/must-see_MaisieStacking.jpg"
-      },
-      {
-        "file": "SlidingMerge.html",
-        "title": "Sliding Merge",
-        "tags": [],
-        "src": "ads/must-see/SlidingMerge.html",
-        "thumb": "thumbs/must-see_SlidingMerge.jpg"
-      },
-      {
-        "file": "TD_build_up.html",
-        "title": "TD Build Up",
-        "tags": [],
-        "src": "ads/must-see/TD_build_up.html",
-        "thumb": "thumbs/must-see_TD_build_up.jpg"
-      },
-      {
-        "file": "TD_Buttons.html",
-        "title": "TD Buttons",
-        "tags": [],
-        "src": "ads/must-see/TD_Buttons.html",
-        "thumb": "thumbs/must-see_TD_Buttons.jpg"
-      },
-      {
-        "file": "TK-right-left-defence.html",
-        "title": "TK Right Left Defence",
-        "tags": [],
-        "src": "ads/must-see/TK-right-left-defence.html",
-        "thumb": "thumbs/must-see_TK-right-left-defence.jpg"
-      },
-      {
-        "file": "TwoLevelsV2.html",
-        "title": "Two Levels V2",
-        "tags": [],
-        "src": "ads/must-see/TwoLevelsV2.html",
-        "thumb": "thumbs/must-see_TwoLevelsV2.jpg"
-      },
-      {
-        "file": "zombastic_pixel_minigame.html",
-        "title": "Zombastic Pixel Minigame",
-        "tags": [],
-        "src": "ads/must-see/zombastic_pixel_minigame.html",
-        "thumb": "thumbs/must-see_zombastic_pixel_minigame.jpg"
-      },
-      {
-        "file": "zombastic-defence.html",
-        "title": "Zombastic Defence",
-        "tags": [],
-        "src": "ads/must-see/zombastic-defence.html",
-        "thumb": "thumbs/must-see_zombastic-defence.jpg"
+        "src": "ads/iterations-example/FallingMergeYellow.html",
+        "thumb": "thumbs/iterations-example_FallingMergeYellow.jpg"
       }
     ]
   }
