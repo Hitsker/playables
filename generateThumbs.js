@@ -57,11 +57,18 @@ for (const fileAbs of htmlFiles) {
     const thumbRel  = `thumbs/${thumbName}`;
     const adsRel    = `${ADS_DIR}/${relPath}`.replace(/\\/g,'/');
 
-    const url = `file://${process.cwd()}/${adsRel}`;
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 0 });
-    await new Promise(r => setTimeout(r, 3000));
-    const buf = await page.screenshot({ type: 'jpeg', quality: 80 });
-    await fs.writeFile(path.join(THUMBS_DIR, thumbName), buf);
+    try {
+        const url = `file://${process.cwd()}/${adsRel}`;
+        await page.goto(url, { waitUntil: 'networkidle0', timeout: 60_000 });
+        await new Promise(r => setTimeout(r, 3500));
+        const buf = await page.screenshot({ type: 'jpeg', quality: 80 });
+        await fs.writeFile(path.join(THUMBS_DIR, thumbName), buf);
+    } catch (err) {
+        console.error(`✖ render failed: ${adsRel}\n  ${err.message}`);
+        // если превью не сгенерировалось — пропускаем этот плеебл,
+        // но продолжаем обработку остальных
+        continue;
+    }
 
     const group = ensureGroup(folder);
     let item = group.items.find(i => i.file === path.basename(fileAbs));
