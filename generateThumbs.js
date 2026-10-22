@@ -9,6 +9,17 @@ const MANIFEST_FN = 'manifest.json';
 const VIEWPORT    = { width: 480, height: 960 };
 const RENDER_WAIT = 3500; // мс — чтобы успел отрисоваться первый кадр
 
+// Желаемый порядок отображения групп на сайте
+const FOLDER_ORDER = [
+    'tower-defence',
+    'puzzles',
+    'merge-2',
+    'roguelike',
+    'other-mechanics',
+    '3D',
+    'iterations-example' 
+];
+
 /* ╭─────────────────── helpers ───────────────────╮ */
 const prettify = slug =>
     slug
@@ -108,14 +119,34 @@ try {
     await browser.close();
 }
 
-const manifest = [...groups.values()]
-    .sort((a, b) => a.folder.localeCompare(b.folder));
+// ---- Сортируем группы по кастомному списку FOLDER_ORDER ----
+const manifest = [...groups.values()];
+
+manifest.sort((a, b) => {
+    const indexA = FOLDER_ORDER.indexOf(a.folder);
+    const indexB = FOLDER_ORDER.indexOf(b.folder);
+
+    // 1. Если обе папки есть в списке порядка — сортируем по их индексам
+    if (indexA !== -1 && indexB !== -1) {
+        return indexA - indexB;
+    }
+    // 2. Если папка есть в списке, а другая нет — папка из списка идет первой
+    if (indexA !== -1) return -1;
+    if (indexB !== -1) return 1;
+    
+    // 3. Если обеих папок нет в списке (добавили новые) — падают в конец по алфавиту
+    return a.folder.localeCompare(b.folder);
+});
+
+// Внутри каждой группы файлы оставляем по алфавиту
 for (const g of manifest) {
     g.items.sort((a, b) => a.file.localeCompare(b.file));
 }
 
+// ---- Записываем манифест ----
 await fs.writeFile(MANIFEST_FN, JSON.stringify(manifest, null, 2) + '\n');
 
+// ---- Подчищаем осиротевшие thumbnails ----
 const usedThumbs = new Set(
     manifest.flatMap(g => g.items.map(i => path.basename(i.thumb)))
 );
